@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лид-форма - Вопрос специалисту</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="avatar-block">
+            <img src="https://cdn.pixabay.com/photo/2016/03/31/19/56/avatar-1295399_1280.png" alt="Аватар специалиста">
+        </div>
+        <div class="form-block">
+            <h1>ЗАДАЙТЕ ВОПРОСЫ СПЕЦИАЛИСТУ!</h1>
+            <form id="leadForm">
+                <input type="text" name="fio" placeholder="ФИО" required>
+                <input type="email" name="email" placeholder="Почта" required>
+                <textarea name="question" placeholder="Ваш вопрос" required></textarea>
+                <button type="submit">Отправить</button>
+            </form>
+            <div id="formMessage"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
